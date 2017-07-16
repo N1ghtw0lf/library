@@ -191,11 +191,11 @@ header {
 .block_heading {
   width: 438px;
   margin: 0 auto 20px auto;
-  height: 54px;
+  height: 50px;
   background-color: #1ca3fd;
   font-size: 22px;
   font-weight: bolder;
-  padding-top: 16px;
+  padding-top: 2px;
   position: relative;
   top: -12px;
   color: #fff; }
