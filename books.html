@@ -5,9 +5,8 @@
   <link rel="stylesheet" type="text/css" href="site.css">
   <link rel="stylesheet" type="text/css" href="font.css" />
 </head>
-<body class="main-page">
+<body>
     <header>
-      <div class="overlay"></div>
       <div class="wrapper">
           <nav>
             <ul>
@@ -21,53 +20,18 @@
           </nav>
           <div class="clearfix"></div>
           <div class="line"></div>
-          <h1>
-            ONLINE LIBRARY
-          </h1>
-          <p class="subheading">
-            Бла бла бла...Здесь будет какой-то текст.<br />
-            Будь в курсе!
-          </p>
-          <button class="button big">Выбрать рубрику</button>
+          <div class="search">
+              <form>
+                  <input type="text" class="search_input" placeholder="Найти книгу" />
+                  <input type="submit" class="button small" value="Найти" />
+              </form>
+          </div>
       </div>
     </header>
     <div class="clearfix"></div>
-    <section class="popular_cats">
-      <div class="block_heading-elem black"></div>
-      <div class="block_heading">Популярные рубрики:</div>
-      <div class="wrapper">
-        <table class="popular_cats_table">
-            <tr>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-            </tr>
-            <tr>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-            </tr>
-            <tr>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-                <td><img src="categories/category_pc.png" alt="Компьютерная литература" /><br /><span>Компьютерная литература</span></td>
-            </tr>
-        </table>
-        <div class="search">
-            <form>
-                <input type="text" class="search_input" placeholder="Найти книгу" />
-                <input type="submit" class="button small" value="Найти" />
-            </form>
-        </div>
-      </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="popular_books">
+    <section class="popular_books without-border">
       <div class="block_heading-elem blue"></div>
-      <div class="block_heading without-border">Популярные книги:</div>
+      <div class="block_heading without-border">Книги:</div>
       <div class="wrapper">
           <table class="popular_books_table">
               <tr>
@@ -123,47 +87,6 @@
                   </td>
               </tr>
           </table>
-      </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="books_new">
-      <div class="wrapper">
-          <div class="new_books_label_wrapper">
-              <div class="new_books_icon_wrapper">
-                  <img src="new_books_icon.png" class="new_books_icon"></img>
-              </div>
-              <div class="new_books_label">Новые книги</div>
-          </div>
-          <div class="new_books_label_background"></div>
-          <table>
-              <tr>
-                  <td><div><img src="books_new/book_1.jpg" /></div></td>
-                  <td><div><img src="books_new/book_2.jpg" /></div></td>
-              </tr>
-              <tr>
-                  <td><div><img src="books_new/book_3.jpg" /></div></td>
-                  <td><div><img src="books_new/book_4.jpg" /></div></td>
-              </tr>
-          </table>
-      </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="articles_new">
-      <div class="block_heading-elem blue"></div>
-      <div class="block_heading without-border">Новые статьи:</div>
-      <div class="wrapper">
-          <div class="article_item">
-              <div class="article_img_wrapper">
-                  <div class="quote_img"></div>
-                  <div class="article_img"><img src="books/book_2.jpg" width="110" height="133" /></div>
-              </div>
-              <div class="article_description">
-                  Агентство из будущего набирает детей из других времен — тех из них, выдающиеся способности к сверхчувственному восприятию которых остались непонятыми в своем времени. <br />
-                  Маро распознает цвета за пределом видимого глазом спектра, а также мгновенно определяет определяет чувства человека, узнает то, что о нем думают и отражает именно тот тип характера, какой от него ожидают. Его способности понадобились в 2752 году.
-              </div>
-              <div class="clearfix"></div>
-              <div class="article_title">Безумный Маро</div>
-          </div>
       </div>
     </section>
     <div class="clearfix"></div>
