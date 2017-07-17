@@ -39,8 +39,9 @@ header {
         color: #fff; }
   header .wrapper .user_icon {
     position: relative;
-    left: 385px;
-    top: -45px; }
+    left: 680px;
+    top: -45px;
+    width: 52px; }
   header .wrapper .subheading {
     font-size: 18px; }
 
@@ -151,7 +152,7 @@ header {
 .articles_new {
   color: #000; }
   .articles_new .article_item {
-    padding-bottom: 100px; }
+    padding-bottom: 40px; }
     .articles_new .article_item .article_img_wrapper {
       margin-right: 30px; }
       .articles_new .article_item .article_img_wrapper .quote_img {
@@ -174,12 +175,71 @@ header {
     .articles_new .article_item .article_description {
       width: 542px;
       float: left;
-      margin-left: 30px;
-      padding: 7px 0; }
+      margin-left: 35px;
+      padding: 7px 0;
+      font-size: 15px;
+      line-height: 21px;
+      height: 153px; }
   .articles_new .article_title {
     width: 304px;
-    padding-top: 20px;
     font-size: 24px; }
+
+.news {
+  color: #000; }
+  .news .news_item {
+    width: 840px;
+    padding-bottom: 30px;
+    margin: 0 auto; }
+    .news .news_item .news_img_wrapper {
+      margin-right: 30px; }
+      .news .news_item .news_img_wrapper .news_img {
+        float: left;
+        background-color: #1d8dd7;
+        width: 234px;
+        height: 242px; }
+        .news .news_item .news_img_wrapper .news_img img {
+          width: 168px;
+          height: 203px;
+          padding: 20px 20px; }
+    .news .news_item .news_text_wrapper {
+      float: left; }
+      .news .news_item .news_text_wrapper .news_title {
+        text-align: left;
+        padding: 0 0 50px 100px;
+        font-size: 24px; }
+      .news .news_item .news_text_wrapper .news_description {
+        width: 540px;
+        float: left;
+        padding: 7px 0 7px 65px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 153px; }
+
+.horizontal_dotted_line {
+  border-bottom: 1px dotted #000;
+  width: 960px;
+  margin-bottom: 35px; }
+
+.pager {
+  margin: 0 auto;
+  width: 960px;
+  text-align: center;
+  color: #303030;
+  font-size: 12px;
+  padding: 40px 0 80px 0; }
+  .pager .pager_wrapper {
+    width: 210px;
+    margin: 0 auto; }
+    .pager .pager_wrapper .pager_item {
+      width: 28px;
+      height: 22px;
+      background-color: #8cd0fe;
+      border: 1px solid #81add9;
+      float: left;
+      margin-left: 15px;
+      padding-top: 5px; }
+    .pager .pager_wrapper .pager_item:first-child {
+      margin-left: 0px; }
 
 .block_heading-elem {
   position: relative;
@@ -195,7 +255,7 @@ header {
   background-color: #1ca3fd;
   font-size: 22px;
   font-weight: bolder;
-  padding-top: 2px;
+  padding-top: 14px;
   position: relative;
   top: -12px;
   color: #fff; }
