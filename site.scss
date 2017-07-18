@@ -42,11 +42,9 @@ header {
       ul li {
         display: inline-block;
         width: 19%;
-        a {
-          text-decoration: none;
-        }
-        a:visited {
+        a, a:visited {
           color: #fff;
+          text-decoration: none;
         }
       }
     }
